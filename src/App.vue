@@ -6,7 +6,7 @@
     <section>
       <div class="coming__text">
         <h1>Pass your certification exams with ease</h1>
-        <p>We are building a platform that  would help you pass your certification exam. We know how difficult it can be jogging a lot of things together and we are making this for you. Fill the form below to get notified when we launch.</p>
+        <p>We are building a platform that  would help you pass your certification exam. We know how difficult it can be joggling a lot of things together and we are making this for you. Fill the form below to get notified when we launch.</p>
         <form class="form__group" @submit.prevent="submit">
           <input 
             type="email" 
@@ -113,17 +113,17 @@ section {
   border: 1.069px solid #000;
   border-radius: 100px;
   width: 100%;
-  padding: 15px 20px;
+  padding: 20px;
   font-size: 15px;
   background: transparent;
 }
 
 button {
   position: absolute;
-  top: 6px;
-  right: 4px;
-  padding: 11px;
-  border-radius: 20px;
+  top: 7px;
+  right: 7px;
+  padding: 15px;
+  border-radius: 100px;
   background: #E65539;
   border: none;
   color: #fff;
@@ -151,6 +151,10 @@ button {
 
   .coming__text h1 {
     font-size: 45px;
+  }
+
+  .coming__text p {
+    font-size: 16px;
   }
 }
 </style>
